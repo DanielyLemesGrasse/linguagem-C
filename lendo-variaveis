@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int danydany;
+    float dani;
+    char R;
+    danydany = 13;
+    dani = 5.57;
+    R = 'R';
+
+    //printf
+    //parametro : formato
+    printf("imp do inteiro: %i\n", danydany);
+    printf("imp do float: %f\n", dani);
+    printf("imp  do char: %c\n", R);
+    printf("\ndigite um inteiro:");
+    //scanf
+    //1- Parametro: formato
+    //2 em diante Parametro (s) são as variáveis
+    scanf("%i",&danydany);
+    getchar(); //le o enter após digitar o numero
+    printf("O numero lido eh: %i",danydany);
+    printf("\ndigite um float:");
+    scanf("%f",&dani);
+    printf("\n o numero lido eh %f:",dani);
+    return 0;
+}
