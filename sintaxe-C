@@ -1,0 +1,26 @@
+//inclusão de bibliotecas
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() //ponto de entrada único do programa
+{//inicio do bloco de código
+    //declaração das variáveis:
+    //TIPO IDENTIFICADOR
+    int numero; //variavel do tipo inteiro chamada numero
+    //INT numero - maneira errada de declarar uma variavel pois está escrita com letras maiusculas
+    float decimal; //variavel do tipo float chamada decimal
+    char letra; //declaração do tipo char chamada letra
+    numero = 1000;
+    decimal = 2000.50;
+    //a linguagem C não entende vírgula como separador de decimal, por isso usamos .
+
+
+    //como imprimir um numero?
+    printf ("\n%i",numero); //por o %i para puxar um numero e a letra da variavel
+    //usar \n para pular linha, dentro das " do printf
+
+    printf("A variavel numero vale : %i\n",numero); //outro exemplo de como imprimir o numero
+
+    printf("Hello world!\n");//printf serve para ser mostrar algo na tela
+    return 0; //código de saida do programa
+}//fim do bloco de código
