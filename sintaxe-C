@@ -13,8 +13,8 @@ int main() //ponto de entrada único do programa
 
     letra = 'A';
 
-    numero = 1000;
-    decimal = 2000.50;
+    numero = 0;
+    decimal = 0.0;
     //a linguagem C não entende vírgula como separador de decimal, por isso usamos .
 
 
