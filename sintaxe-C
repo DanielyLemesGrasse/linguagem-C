@@ -10,6 +10,9 @@ int main() //ponto de entrada único do programa
     //INT numero - maneira errada de declarar uma variavel pois está escrita com letras maiusculas
     float decimal; //variavel do tipo float chamada decimal
     char letra; //declaração do tipo char chamada letra
+    
+    letra = 'A';
+    
     numero = 1000;
     decimal = 2000.50;
     //a linguagem C não entende vírgula como separador de decimal, por isso usamos .
@@ -20,6 +23,10 @@ int main() //ponto de entrada único do programa
     //usar \n para pular linha, dentro das " do printf
 
     printf("A variavel numero vale : %i\n",numero); //outro exemplo de como imprimir o numero
+    
+    //para imprimir numero com casas deciamais:
+    printf("%f\n",decimal);
+    printf("a variavel decimal tem o valor : %f\n",decimal);
 
     printf("Hello world!\n");//printf serve para ser mostrar algo na tela
     return 0; //código de saida do programa
