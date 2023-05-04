@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+float multiplicar(float a, float b) {
+    float resultado = a * b;
+    return resultado;
+}
+
+int main() {
+    float num1, num2, resultado;
+
+    printf("Digite o primeiro número: ");
+    scanf("%f", &num1);
+    printf("Digite o segundo número: ");
+    scanf("%f", &num2);
+
+    resultado = multiplicar(num1, num2);
+
+    printf("O resultado da multiplicação é: %f", resultado);
+
+    return 0;
+}
